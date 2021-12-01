@@ -43,7 +43,7 @@ $lt: 2005
 
 ### 6. All the companies that don't include the `partners` field.
 
-project({partners: 0})
+{partners: {$size: 0}}
 
 ### 7. All the companies that have a null type of value on the `category_code` field.
 
